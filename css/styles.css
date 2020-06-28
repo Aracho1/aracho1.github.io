@@ -4,7 +4,7 @@
 
 body {
   font-family: Montserrat;
-  font-size: 18px;
+  font-size: 1.2em;
   margin: 0;
   height: 100%;
   color: #fff;
@@ -39,9 +39,8 @@ p {
 }
 
 h1 {
-  font-size: 60px;
+  font-size: 4em;
   margin: 0;
-  line-height: 1.1;
 }
 
 h4 {
@@ -202,6 +201,15 @@ a:hover{
   font-size: 1em;
 }
 
-#about-me-photo {
+#me-photo {
   float: right;
+  width: 40%;
+  margin: 1em 0 1em 2em;
+}
+
+@media only screen and (max-width: 1000px) {
+  #me-photo {
+    width: 100%;
+    margin-left: 2em;
+  }
 }
