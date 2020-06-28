@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: Montserrat;
   font-size: 18px;
@@ -73,7 +77,7 @@ a:hover{
   font-weight: bold;
 }
 
-.fas { font-family: 'FontAwesome' !important; } 
+.fas { font-family: 'FontAwesome' !important; }
 
 .carousel-container {
   margin: auto;
@@ -181,6 +185,11 @@ a:hover{
   font-size: 20px;
 }
 
+#me-photo{
+  float:right;
+  padding: 0 2em;
+}
+
 #links a{
   padding: 60px;
 }
@@ -190,5 +199,9 @@ a:hover{
   justify-content: center;
   color: grey;
   padding: 5%;
-  font-size: 15px;
+  font-size: 1em;
+}
+
+#about-me-photo {
+  float: right;
 }
