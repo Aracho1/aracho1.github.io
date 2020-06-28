@@ -53,7 +53,7 @@ a:hover{
 
 
 .landing-view{
-  padding: 3%;
+  padding: 1%;
   background-color: #f3d250;
 }
 
@@ -123,7 +123,7 @@ a:hover{
 }
 
 .main-caption {
-  margin: auto;
+  margin: 10px auto 20px;
   text-align: center;
   width: 60%;
 }
@@ -141,7 +141,7 @@ a:hover{
 }
 
 #why {
-  padding: 3% 8%;
+  padding: 3% 8% 10%;
   margin: 0;
   background: #fee074;
   color:black;
@@ -217,8 +217,13 @@ a:hover{
   }
   .carousel-container {
     width: 100%;
+    border: 2px solid;
   }
   .column {
     width: 100%;
+  }
+  #links a{
+    padding: 1em;
+    display: grid;
   }
 }
