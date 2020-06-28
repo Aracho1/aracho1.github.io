@@ -85,13 +85,13 @@ a:hover{
 .fas,
 .fab { font-family: 'FontAwesome' !important; }
 
-
 /* carousel */
 
 .carousel-container {
-  margin: 5% auto;
+  margin: 2% auto;
+  width: 50%;
+  height: 400px;
   padding: 0;
-  width: 60%;
   border:5px solid;
   overflow: hidden;
   position: relative;
@@ -100,7 +100,6 @@ a:hover{
 .carousel-slide {
   display:flex;
   width: 100%;
-  height: 500px;
 }
 
 #prevBtn {
@@ -127,7 +126,6 @@ a:hover{
   margin: auto;
   text-align: center;
   width: 60%;
-  padding-top: 5%;
 }
 
 #about {
