@@ -38,3 +38,7 @@ carouselSlide.addEventListener("transitionend", ()=> {
     carouselSlide.style.transform = "translateX(" + (-size * counter) + "px)";
   }
 })
+
+if( "MozAppearance" in document.documentElement.style ) {
+    $('.logo img').addClass('image-scale-hack');
+}
