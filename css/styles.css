@@ -221,9 +221,8 @@ a:hover{
   .carousel-container {
     width: 100%;
   }
-  .column {
-    width: 100%;
-  }
+
+
   #links a{
     padding: 1em;
     display: grid;
