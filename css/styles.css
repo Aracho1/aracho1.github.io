@@ -90,7 +90,6 @@ a:hover{
 .carousel-container {
   margin: 2% auto;
   width: 700px;
-  height: 400px;
   padding: 0;
   border:3px solid;
   overflow: hidden;
@@ -162,9 +161,10 @@ a:hover{
   grid-gap: 10% 3%;
 }
 
-.grid-container img {
+.grid-item img {
   border: 1px solid;
   border-color: #fee074;
+  max-width: 100%;
 }
 
 /* external links */
@@ -190,9 +190,6 @@ a:hover{
   font-size: 1em;
 }
 
-.image-scale-hack {
-    transform: rotate( .0001deg );
-}
 
 @media screen and (max-width: 800px) {
   h1 {
