@@ -147,14 +147,11 @@ a:hover{
   color:black;
 }
 
+/* work portfolio  */
 #work {
   color: black;
   padding: 2% 8%;
   margin-bottom: 10%;
-}
-
-.work-examples {
-  column-count: 3;
 }
 
 
@@ -171,8 +168,7 @@ a:hover{
   border-color: #fee074;
 }
 
-
-
+/* external links */
 #links {
   background-color: #f3d250;
   margin: 0;
@@ -194,8 +190,6 @@ a:hover{
   padding: 5%;
   font-size: 1em;
 }
-
-
 
 @media screen and (max-width: 800px) {
   h1 {
@@ -221,7 +215,6 @@ a:hover{
   .carousel-container {
     width: 100%;
   }
-
 
   #links a{
     padding: 1em;
